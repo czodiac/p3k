@@ -49,19 +49,21 @@ export default function LandingPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h2 className={classes.title}>3 Kingdoms NFT game <h6>on Etherium compatible Polygon</h6></h2>
               <h4>
-                Say no to 
-              </h4>
-              <ul>
-                <li>Paying expensive gas fee to mint or to buy</li>
-                <li>Mint failures</li>
-                <li>Random NFTs you never want</li>
-              </ul>
-              <h4>
-                Now you can choose your favorite generals and pay near $0 gas fee. You need a general NFT to own a castle. Own a castle to
+                Own a castle to
               </h4>
               <ul>
                 <li>Generate passive income</li>
                 <li>Advertise your own image and link on this site</li>
+              </ul>
+              <h4>
+                You need a general NFT to own a castle. Every NFTs will be pre-minted and can only be purchased at Opensea.io. This is to avoid 
+              </h4>
+              <ul>
+                <li>Paying expensive gas fee to mint or to buy a NFT</li>
+                <li>Getting a Random NFT you never want</li>
+                <li>Mint failures</li>
+                <li>Unfair minting process</li>
+                <li>Waiting for minting or whitelist opening date</li>
               </ul>
               <br />
               <Button
