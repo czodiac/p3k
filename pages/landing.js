@@ -47,17 +47,13 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>3 Kingdoms NFT on <img
-                alt="..."
-                src="/navbar-logo.dca79cc.svg"
-                width="150px"
-              /></h1>
+              <h1 className={classes.title}>3 Kingdoms NFT game <h4>on Etherium compatible Polygon</h4></h1>
               <h4>
-                Own a castle to
+                No need for random minting and paying expensive gas fee to own NFT. You can choose your favorite generals on OpenSea.io and pay 0 gas fee. You will need your generals to own a castle to
               </h4>
               <ul>
                 <li>Generate passive income</li>
-                <li>Advertise your image and link</li>
+                <li>Advertise your own image and link on this site</li>
               </ul>
               <br />
               <Button
