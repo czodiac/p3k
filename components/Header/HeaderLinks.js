@@ -38,14 +38,14 @@ export default function HeaderLinks(props) {
           buttonIcon={Apps}
           dropdownList={[
             <Link href="/components">
-              <a className={classes.dropdownLink}>All components</a>
+              <a className={classes.dropdownLink}>Placeholder</a>
             </Link>,
             <a
               href="https://creativetimofficial.github.io/nextjs-material-kit/#/documentation?ref=njsmk-navbar"
               target="_blank"
               className={classes.dropdownLink}
             >
-              Documentation
+              Placeholder
             </a>,
           ]}
         />
@@ -57,7 +57,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <Icon className={classes.icons}>unarchive</Icon> Upgrade to PRO
+          <Icon className={classes.icons}>unarchive</Icon> Placeholder
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -67,7 +67,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+          <CloudDownload className={classes.icons} /> Placeholder
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

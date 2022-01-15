@@ -63,7 +63,11 @@ export default function Header(props) {
   });
   const brandComponent = (
     <Link href="/components" as="/components">
-      <Button className={classes.title}>{brand}</Button>
+      <img
+        alt="..."
+        src="/p3k-logo.png"
+        width="200px"
+      />
     </Link>
   );
   return (
