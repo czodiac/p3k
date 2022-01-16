@@ -57,14 +57,12 @@ export default function LandingPage(props) {
               </ul>
               <br />
               <Button
-                color="danger"
-                size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
+                color="primary"
+                href="https://opensea.io/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fas fa-play" />
-                Watch video
+                Buy Hero NFT
               </Button>
             </GridItem>
           </GridContainer>
