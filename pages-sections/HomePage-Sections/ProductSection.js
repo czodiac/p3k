@@ -5,6 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 import VerifiedUser from "@material-ui/icons/VerifiedUser";
 import MoneyOff from "@material-ui/icons/MoneyOff";
+import Search from "@material-ui/icons/Search";
 import MonetizationOn from "@material-ui/icons/MonetizationOn";
 
 // core components
@@ -21,7 +22,7 @@ export default function ProductSection() {
   return (
     <div className={classes.section}>
       <GridContainer justify="center">
-        <GridItem xs={12} sm={12} md={8}>
+        <GridItem xs={12} sm={12} md={12}>
           <h2 className={classes.title}>3 Kingdoms Hero NFT</h2>
           <h5 className={classes.description}>
             You can conquer a city with a hero NFT. Every NFTs will be
@@ -30,37 +31,44 @@ export default function ProductSection() {
           </h5>
         </GridItem>
       </GridContainer>
-      <div>
-        <GridContainer>
-          <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Virtually 0 Gas Fee"
-              description="Welcome to ultra fast and efficient Etherium compatible Polygon network. There is no need to pay expensive gas fee to mint or to buy a NFT."
-              icon={MoneyOff}
-              iconColor="danger"
-              vertical
-            />
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Earn Passive Income"
-              description="Own a city to recieve polygon coins daily. Our payout address is on discord for transparency. Every battle history will also be available to view on this site."
-              icon={MonetizationOn}
-              iconColor="success"
-              vertical
-            />
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Pre-Minted"
-              description="Minting is good for publishers not buyers. You no longer need to: wait for minting or whitelist start time, get a random NFT and pay expensive gas fee. Every buyers are on equal playing ground."
-              icon={VerifiedUser}
-              iconColor="info"
-              vertical
-            />
-          </GridItem>
-        </GridContainer>
-      </div>
+      <GridContainer>
+        <GridItem xs={6} sm={3} md={3}>
+          <InfoArea
+            title="Play and Earn"
+            description="Just by owning a city, you recieve polygon daily. If you successfully defend your city from an attack, you also receive Polygon."
+            icon={MonetizationOn}
+            iconColor="success"
+            vertical
+          />
+        </GridItem>
+        <GridItem xs={6} sm={3} md={3}>
+          <InfoArea
+            title="Pre-Minted"
+            description="Minting is good for publishers not buyers. You no longer need to: wait for minting or whitelist start time, get a random NFT and pay expensive gas fee. We offer a level playing field for everyone."
+            icon={VerifiedUser}
+            iconColor="info"
+            vertical
+          />
+        </GridItem>
+        <GridItem xs={6} sm={3} md={3}>
+          <InfoArea
+            title="Virtually 0 Gas Fee"
+            description="Efficient Polygon network requires near 0 gas fee yet compatible with Etherium. There is no need to pay expensive gas fee to mint or to buy our NFT."
+            icon={MoneyOff}
+            iconColor="danger"
+            vertical
+          />
+        </GridItem>
+        <GridItem xs={6} sm={3} md={3}>
+          <InfoArea
+            title="Transparent"
+            description="We are transparent. Users pay small Polygon to initiate a battle. The wallet used to accumulate this fee will be public. Every battle history will also be available on Battles page."
+            icon={Search}
+            iconColor="success"
+            vertical
+          />
+        </GridItem>
+      </GridContainer>
     </div>
   );
 }

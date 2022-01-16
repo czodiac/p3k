@@ -50,7 +50,7 @@ export default function LandingPage(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <span className={classes.title}>
-                3 Kingdoms NFT game on Polygon{" "}
+                3 Kingdoms NFT Game on Polygon{" "}
                 <img alt="Polygon/Matic" src="/polygon-matic-logo.png" />
               </span>
               <h4>Use hero NFTs and conquer cities to:</h4>

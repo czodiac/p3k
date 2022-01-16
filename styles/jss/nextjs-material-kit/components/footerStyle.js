@@ -12,6 +12,11 @@ const footerStyle = {
     position: "relative",
     display: "block",
   },
+  footerTxt: {
+    fontSize: "15px",
+    color: "#7e4f0f",
+    fontWeight: "600",
+  },
   left: {
     float: "left!important",
     display: "block",

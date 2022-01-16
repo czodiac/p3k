@@ -30,8 +30,8 @@ export default function Footer(props) {
     <footer className={footerClasses}>
       <div className={classes.container}>
         <div className={classes.left}></div>
-        <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} 3 Kingdoms on Polygon
+        <div className={classes.footerTxt}>
+          &copy; {1900 + new Date().getYear()} - 3 Kingdoms
         </div>
       </div>
     </footer>
