@@ -61,27 +61,16 @@ export default function Header(props) {
     [classes.absolute]: absolute,
     [classes.fixed]: fixed,
   });
-  const brandComponent = (
-    <Link href="/components" as="/components">
-      <img
-        alt="..."
-        src="/p3k-logo.png"
-        width="200px"
-      />
-    </Link>
-  );
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
-        {leftLinks !== undefined ? brandComponent : null}
         <div className={classes.flex}>
-          {leftLinks !== undefined ? (
-            <Hidden smDown implementation="css">
-              {leftLinks}
-            </Hidden>
-          ) : (
-            brandComponent
-          )}
+          <Link href="/home" as="/home">
+            <img alt="3 Kingdoms" src="/3castles.png" />
+          </Link>
+          <Link href="/home" as="/home">
+            <span class="logo">{brand}</span>
+          </Link>
         </div>
         <Hidden smDown implementation="css">
           {rightLinks}

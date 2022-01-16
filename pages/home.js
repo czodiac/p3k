@@ -20,7 +20,6 @@ import styles from "styles/jss/nextjs-material-kit/pages/landingPage.js";
 // Sections for this page
 import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
-import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
 
 const dashboardRoutes = [];
 
@@ -34,7 +33,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="NextJS Material Kit"
+        brand="三國志"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -47,23 +46,14 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h2 className={classes.title}>3 Kingdoms NFT game <h6>on Etherium compatible Polygon</h6></h2>
-              <h4>
-                Own a castle to
-              </h4>
+              <span className={classes.title}>
+                3 Kingdoms NFT game on Polygon{" "}
+                <img alt="Polygon/Matic" src="/polygon-matic-logo.png" />
+              </span>
+              <h4>Conquer cities to</h4>
               <ul>
-                <li>Generate passive income</li>
+                <li>Earn Polygon coin daily</li>
                 <li>Advertise your own image and link on this site</li>
-              </ul>
-              <h4>
-                You need a general NFT to own a castle. Every NFTs will be pre-minted and can only be purchased at Opensea.io. This is to avoid 
-              </h4>
-              <ul>
-                <li>Paying expensive gas fee to mint or to buy a NFT</li>
-                <li>Getting a Random NFT you never want</li>
-                <li>Mint failures</li>
-                <li>Unfair minting process</li>
-                <li>Waiting for minting or whitelist opening date</li>
               </ul>
               <br />
               <Button
@@ -74,7 +64,7 @@ export default function LandingPage(props) {
                 rel="noopener noreferrer"
               >
                 <i className="fas fa-play" />
-                 Watch video
+                Watch video
               </Button>
             </GridItem>
           </GridContainer>
@@ -84,7 +74,6 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <ProductSection />
           <TeamSection />
-          <WorkSection />
         </div>
       </div>
       <Footer />

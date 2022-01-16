@@ -126,3 +126,9 @@
   box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2),
     0 40px 77px 0 rgba(0, 0, 0, 0.22);
 }
+
+@mixin font-shadow($color) {
+   text-shadow:1px 1px 0px $color; /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 1px 1px 0px $color;
+  -webkit-text-shadow: 1px 1px 0px $color;
+}
