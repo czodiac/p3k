@@ -1,10 +1,13 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
+
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+import { List, ListItem, ListItemIcon, ListItemText } from "@material-ui/core";
 
 // @material-ui/icons
+import Check from "@material-ui/icons/Check";
 
 // core components
 import Header from "components/Header/Header.js";
@@ -15,11 +18,11 @@ import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
-import styles from "styles/jss/nextjs-material-kit/pages/landingPage.js";
+import styles from "styles/jss/nextjs-material-kit/pages/homePage.js";
 
 // Sections for this page
-import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
-import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
+import ProductSection from "pages-sections/HomePage-Sections/ProductSection.js";
+import TeamSection from "pages-sections/HomePage-Sections/TeamSection.js";
 
 const dashboardRoutes = [];
 
@@ -50,14 +53,23 @@ export default function LandingPage(props) {
                 3 Kingdoms NFT game on Polygon{" "}
                 <img alt="Polygon/Matic" src="/polygon-matic-logo.png" />
               </span>
-              <h4>Conquer cities to</h4>
-              <ul>
-                <li>Earn Polygon coin daily</li>
-                <li>Advertise your own image and link on this site</li>
-              </ul>
+              <h4>Use hero NFTs and conquer cities to:</h4>
+              <List disablePadding>
+                <ListItem>
+                  <Check className={classes.chkIcon} />
+                  Earn Polygon coin daily
+                </ListItem>
+              </List>
+              <List>
+                <ListItem>
+                  <Check className={classes.chkIcon} />
+                  Advertise your own image and link on this site
+                </ListItem>
+              </List>
               <br />
               <Button
                 color="primary"
+                size="lg"
                 href="https://opensea.io/"
                 target="_blank"
                 rel="noopener noreferrer"

@@ -1,10 +1,14 @@
 import { container, title } from "styles/jss/nextjs-material-kit.js";
 
-const landingPageStyle = {
+const homePageStyle = {
   container: {
     zIndex: "12",
     color: "#000",
     ...container,
+  },
+  chkIcon: {
+    margin: "0 10px 0 0",
+    color: "#448946",
   },
   title: {
     ...title,
@@ -14,7 +18,7 @@ const landingPageStyle = {
     minHeight: "32px",
     color: "#343434",
     textDecoration: "none",
-    fontSize: "2em",
+    fontSize: "4em",
     lineHeight: 1.1,
   },
   smTitle: {
@@ -38,4 +42,4 @@ const landingPageStyle = {
   },
 };
 
-export default landingPageStyle;
+export default homePageStyle;

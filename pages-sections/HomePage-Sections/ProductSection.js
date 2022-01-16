@@ -3,11 +3,10 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
 import VerifiedUser from "@material-ui/icons/VerifiedUser";
 import MoneyOff from "@material-ui/icons/MoneyOff";
 import MonetizationOn from "@material-ui/icons/MonetizationOn";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
