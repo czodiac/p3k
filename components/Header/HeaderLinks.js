@@ -30,44 +30,60 @@ export default function HeaderLinks(props) {
         <CustomDropdown
           noLiPadding
           navDropdown
-          buttonText="Components"
+          buttonText="My Empire"
           buttonProps={{
             className: classes.navLink,
             color: "transparent",
           }}
-          buttonIcon={Apps}
           dropdownList={[
             <Link href="/components">
-              <a className={classes.dropdownLink}>Placeholder</a>
+              <a className={classes.dropdownLink}>Request Battle</a>
             </Link>,
-            <a
-              href="https://creativetimofficial.github.io/nextjs-material-kit/#/documentation?ref=njsmk-navbar"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Placeholder
-            </a>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Empire</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Cities</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Heroes</a>
+            </Link>,
+            <Link href="/components">
+              <a className={classes.dropdownLink}>Battle History</a>
+            </Link>,
           ]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit-pro?ref=njsmk-navbar"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <Icon className={classes.icons}>unarchive</Icon> Placeholder
+        <Button href="/heroes" color="transparent" className={classes.navLink}>
+          Heroes
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
+          href="/components"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Placeholder
+          Battles
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/components"
+          color="transparent"
+          className={classes.navLink}
+        >
+          Whitepaper
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/components"
+          color="transparent"
+          className={classes.navLink}
+        >
+          Components
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

@@ -34,7 +34,7 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Virtuall 0 Gas Fee"
+              title="Virtually 0 Gas Fee"
               description="Welcome to ultra fast and efficient Etherium compatible Polygon network. There is no need to pay expensive gas fee to mint or to buy a NFT."
               icon={MoneyOff}
               iconColor="danger"

@@ -31,7 +31,7 @@ export default function Footer(props) {
       <div className={classes.container}>
         <div className={classes.left}></div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} ITL Studio
+          &copy; {1900 + new Date().getYear()} 3 Kingdoms on Polygon
         </div>
       </div>
     </footer>
