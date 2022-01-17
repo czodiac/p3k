@@ -31,7 +31,7 @@ export default function Footer(props) {
       <div className={classes.container}>
         <div className={classes.left}></div>
         <div className={classes.footerTxt}>
-          &copy; {1900 + new Date().getYear()} - 3 Kingdoms
+          &copy; 3 Kingdoms
         </div>
       </div>
     </footer>
