@@ -13,7 +13,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 
-import styles from "styles/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
+import styles from "styles/jss/nextjs-material-kit/pages/homePageSections/productStyle.js";
 
 const useStyles = makeStyles(styles);
 
@@ -23,7 +23,7 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={12}>
-          <h2 className={classes.title}>3 Kingdoms Hero NFT</h2>
+          <h2 className={classes.title}>NFT for Buyers</h2>
           <h5 className={classes.description}>
             You can conquer a city with a hero NFT. Every NFTs will be
             pre-minted and can only be purchased at Opensea.io with virtually 0

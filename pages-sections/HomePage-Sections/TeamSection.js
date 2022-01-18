@@ -14,7 +14,7 @@ import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
 
-import styles from "styles/jss/nextjs-material-kit/pages/landingPageSections/teamStyle.js";
+import styles from "styles/jss/nextjs-material-kit/pages/homePageSections/teamStyle.js";
 
 const useStyles = makeStyles(styles);
 

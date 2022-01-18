@@ -22,6 +22,7 @@ import styles from "styles/jss/nextjs-material-kit/pages/homePage.js";
 
 // Sections for this page
 import ProductSection from "pages-sections/HomePage-Sections/ProductSection.js";
+import NFTSection from "pages-sections/HomePage-Sections/NFTSection.js";
 import TeamSection from "pages-sections/HomePage-Sections/TeamSection.js";
 
 const dashboardRoutes = [];
@@ -83,6 +84,7 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <ProductSection />
+          <NFTSection />
           <TeamSection />
         </div>
       </div>
