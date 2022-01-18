@@ -46,7 +46,7 @@ export default function HeaderLinks(props) {
               <a className={classes.dropdownLink}>Cities</a>
             </Link>,
             <Link href="/components">
-              <a className={classes.dropdownLink}>Heroes</a>
+              <a className={classes.dropdownLink}>My Heroes</a>
             </Link>,
             <Link href="/components">
               <a className={classes.dropdownLink}>Battle History</a>

@@ -1,4 +1,5 @@
 import React from "react";
+
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -25,9 +26,9 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={12}>
           <h2 className={classes.title}>NFT for Buyers</h2>
           <h5 className={classes.description}>
-            You can conquer a city with a hero NFT. Every NFTs will be
-            pre-minted and can only be purchased at Opensea.io with virtually 0
-            gas fee. It is fair for everyone.
+            You can own a city with a hero NFT. Every NFTs will be pre-minted
+            and can be purchased at <a href="https://openSea.io" target="_blank">OpenSea.io</a>
+            with virtually 0 gas fee.
           </h5>
         </GridItem>
       </GridContainer>

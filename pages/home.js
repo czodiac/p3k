@@ -52,19 +52,23 @@ export default function LandingPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <span className={classes.title}>
                 3 Kingdoms NFT Game on Polygon{" "}
-                <img alt="Polygon/Matic" src="/polygon-matic-logo.png" />
+                <img
+                  alt="Polygon/Matic"
+                  height={"40px"}
+                  src="/polygon-matic-logo.png"
+                />
               </span>
               <h4>Use hero NFTs and conquer cities to:</h4>
               <List disablePadding>
                 <ListItem>
                   <Check className={classes.chkIcon} />
-                  Earn Polygon coin daily
+                  Earn Polygon daily
                 </ListItem>
               </List>
               <List>
                 <ListItem>
                   <Check className={classes.chkIcon} />
-                  Advertise your own image and link on this site
+                  Advertise your site
                 </ListItem>
               </List>
               <br />
