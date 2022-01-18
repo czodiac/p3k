@@ -85,7 +85,6 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <ProductSection />
           <NFTSection />
-          <TeamSection />
         </div>
       </div>
       <Footer />

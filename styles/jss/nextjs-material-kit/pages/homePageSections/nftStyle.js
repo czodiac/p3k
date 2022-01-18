@@ -13,7 +13,7 @@ const nftStyle = {
     textDecoration: "none",
   },
   description: {
-    color: "#999",
+    color: "#767676",
   },
   gridPadding: {
     padding: "40px 0",
@@ -21,7 +21,13 @@ const nftStyle = {
   subTitle: {
     ...title,
   },
+  gridItemTxt: {
+    color: "#767676",
+    fontSize: "14px",
+  },
   supply: {
+    color: "#767676",
+    fontSize: "14px",
     padding: "0 0 20px 0",
   },
 };
