@@ -44,7 +44,7 @@ export default function ProductSection() {
         <GridItem xs={6} sm={3} md={3}>
           <InfoArea
             title="Pre-Minted"
-            description="Minting is good for publishers not buyers. You no longer need to: wait for minting or whitelist start time, get a random NFT and pay expensive gas fee. We offer a level playing field for everyone."
+            description="Minting benefits publishers not buyers. You no longer need to: wait for minting or whitelist start date, get a random NFT or pay expensive gas fee."
             icon={VerifiedUser}
             iconColor="info"
             vertical
@@ -62,7 +62,7 @@ export default function ProductSection() {
         <GridItem xs={6} sm={3} md={3}>
           <InfoArea
             title="Transparent"
-            description="We are transparent. Users pay small Polygon to initiate a battle. The wallet used to accumulate this fee will be public. Every battle history will also be available on Battles page."
+            description="We are transparent. Users pay small Polygon to initiate a battle. The wallet address used to accumulate this fee will be public. Every battle history will also be available on Battles page."
             icon={Search}
             iconColor="success"
             vertical

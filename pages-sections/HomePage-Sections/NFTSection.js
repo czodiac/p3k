@@ -25,8 +25,9 @@ export default function NFTSection() {
         <GridItem xs={12} sm={12} md={12}>
           <h2 className={classes.title}>3 Kingdoms Hero NFT</h2>
           <h5 className={classes.description}>
-            There are <b>921</b> unique hero NFTs. Each NFT belongs to 1 of 4
-            types: Platinum, Gold, Silver or Bronze.
+            There are <b>921</b> unique hero NFTs. A hero has 3 attributes: Strength, Intelligence and Attraction. Attributes
+            range from 0(weakest) to 100(strongest). Depending on hero popularity and attribute values, a hero NFT belongs to 1
+            of 4 types: Platinum, Gold, Silver or Bronze.
           </h5>
         </GridItem>
       </GridContainer>
@@ -35,20 +36,17 @@ export default function NFTSection() {
           <img alt="..." height={30} src="img/nft/war.png" />
           <h4 className={classes.subTitle}>Strength</h4>
           <span className={classes.gridItemTxt}>
-            Both strength and intelligence attribute are used to determine how
-            many soldiers die in a battle. Your soldiers are less likely die in
-            a battle if this value is high. This value is important for all
-            types of battle(1 on 1 and normal). However, it is a bit more useful
-            for 1 on 1 battles. <a href="#">This</a> describes it in details.
+            This is one of the factors that determines how many soldiers die in a battle. This is important for all
+            types of battle: 1 on 1 and normal. However, it is more useful
+            for 1 on 1 battles. (<a href="#">more</a>)
           </span>
         </GridItem>
         <GridItem xs={6} sm={4} md={4}>
           <img alt="..." height={30} src="img/nft/brain.png" />
           <h4 className={classes.subTitle}>Intelligence</h4>
           <span className={classes.gridItemTxt}>
-            Same as strength attribute. The only difference is that this value
-            is a bit more useful for normal battles than 1 on 1 battles.{" "}
-            <a href="#">This</a> describes it in details.
+            Its usage is the same as strength. The only difference is this is more useful for normal battles than 1 on 1.{" "}
+            (<a href="#">more</a>)
           </span>
         </GridItem>
         <GridItem xs={6} sm={4} md={4}>
@@ -56,9 +54,8 @@ export default function NFTSection() {
           <h4 className={classes.subTitle}>Attraction</h4>
           <span className={classes.gridItemTxt}>
             Every day your hero recruites soldiers. Higher attraction value
-            helps you to grow your soldiers faster. You have better chancing of
-            winning a battle if you have more soldiers.
-            <a href="#">This</a> describes it in details.
+            helps you to grow your soldiers faster. There is a higher chance of winning a battle if you have more soldiers.
+            (<a href="#">more</a>)
           </span>
         </GridItem>
       </GridContainer>
@@ -70,10 +67,9 @@ export default function NFTSection() {
             Total supply: <b>37 / 921</b>
           </div>
           <span className={classes.gridItemTxt}>
-            Platinum is the only type was chosen manually by creator and
-            platinum card does not necessarily mean the hero's stats are high.
-            However, these heroes will increase the change of winning battles.
-            You can find who they are <a href="#">here</a>.
+            Well-known 3 Kingdoms heroes. These heroes do not necessarily
+            possess high attributes. However, these heroes increase the chance
+            of winning battles. Find who they are <a href="#">here</a>.
           </span>
         </GridItem>
         <GridItem xs={6} sm={3} md={3}>
@@ -83,10 +79,8 @@ export default function NFTSection() {
             Total supply: <b>229 / 921</b>
           </div>
           <span className={classes.gridItemTxt}>
-            Battle, is the only type was chosen manually by creator and platinum
-            card does not necessarily mean the hero's stats are high. However,
-            these heroes will increase the change of winning battles. You can
-            find who they are <a href="#">here</a>.
+            If a hero posesses any attribute higher than 77, the hero's type is
+            gold.
           </span>
         </GridItem>
         <GridItem xs={6} sm={3} md={3}>
@@ -96,10 +90,8 @@ export default function NFTSection() {
             Total supply: <b>514 / 921</b>
           </div>
           <span className={classes.gridItemTxt}>
-            Platinum is the only type was chosen manually by creator and
-            platinum card does not necessarily mean the hero's stats are high.
-            However, these heroes will increase the change of winning battles.
-            You can find who they are <a href="#">here</a>.
+            If a hero posesses any attribute higher than 59, the hero's type is
+            silver.
           </span>
         </GridItem>
         <GridItem xs={6} sm={3} md={3}>
@@ -109,10 +101,7 @@ export default function NFTSection() {
             Total supply: <b>141 / 921</b>
           </div>
           <span className={classes.gridItemTxt}>
-            Platinum is the only type was chosen manually by creator and
-            platinum card does not necessarily mean the hero's stats are high.
-            However, these heroes will increase the change of winning battles.
-            You can find who they are <a href="#">here</a>.
+            All other heroes' type is bronze.
           </span>
         </GridItem>
       </GridContainer>
