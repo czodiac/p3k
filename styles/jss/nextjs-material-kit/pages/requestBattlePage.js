@@ -1,10 +1,9 @@
 import { container, title } from "styles/jss/nextjs-material-kit.js";
 
-const heroesPageStyle = {
+const requestBattlePageStyle = {
   container: {
     zIndex: "12",
     color: "#000",
-    padding: "30px",
     ...container,
   },
   defaultParallax: {
@@ -12,17 +11,19 @@ const heroesPageStyle = {
   },
   title: {
     ...title,
-    color: "#824e0a",
-    margin: "0 0 10px",
     display: "inline-block",
-    fontSize: "1.5em",
-    textAlign: "center",
-    width: "100%",
+    position: "relative",
+    marginTop: "30px",
+    minHeight: "32px",
+    color: "#343434",
+    textDecoration: "none",
+    fontSize: "4em",
+    lineHeight: 1.1,
   },
   subtitle: {
-    margin: "10px",
-    fontSize: "14px",
-    textAlign: "center",
+    fontSize: "1.313rem",
+    maxWidth: "500px",
+    margin: "10px auto 0",
   },
   main: {
     background: "#FFFFFF",
@@ -36,12 +37,6 @@ const heroesPageStyle = {
     boxShadow:
       "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
   },
-  center: {
-    margin: "auto",
-  },
-  td: {
-    padding: "230px",
-  },
 };
 
-export default heroesPageStyle;
+export default requestBattlePageStyle;

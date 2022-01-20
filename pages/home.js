@@ -58,7 +58,7 @@ export default function LandingPage(props) {
                   src="/polygon-matic-logo.png"
                 />
               </span>
-              <h4>Use hero NFTs and conquer cities to:</h4>
+              <h4>Use a hero NFT and own a city to:</h4>
               <List disablePadding>
                 <ListItem>
                   <Check className={classes.chkIcon} />

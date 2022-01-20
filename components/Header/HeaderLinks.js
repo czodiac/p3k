@@ -36,7 +36,7 @@ export default function HeaderLinks(props) {
             color: "transparent",
           }}
           dropdownList={[
-            <Link href="/components">
+            <Link href="/RequestBattle">
               <a className={classes.dropdownLink}>Request Battle</a>
             </Link>,
             <Link href="/components">

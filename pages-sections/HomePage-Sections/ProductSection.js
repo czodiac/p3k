@@ -24,11 +24,10 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={12}>
-          <h2 className={classes.title}>NFT for Buyers</h2>
+          <h2 className={classes.title}>Why own hero NFT?</h2>
           <h5 className={classes.description}>
-            You can own a city with a hero NFT. Every NFTs will be pre-minted
-            and can be purchased at <a href="https://openSea.io" target="_blank">OpenSea.io</a>
-            with virtually 0 gas fee.
+            You need a hero NFT to own a city. Every NFTs will be pre-minted
+            and can be purchased at <a href="https://openSea.io" target="_blank">OpenSea.io</a> for virtually 0 gas fee.
           </h5>
         </GridItem>
       </GridContainer>

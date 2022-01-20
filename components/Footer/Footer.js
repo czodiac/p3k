@@ -31,7 +31,7 @@ export default function Footer(props) {
       <div className={classes.container}>
         <div className={classes.left}></div>
         <div className={classes.footerTxt}>
-          &copy; 3 Kingdoms
+          &copy; ITL Studio
         </div>
       </div>
     </footer>

@@ -23,9 +23,9 @@ export default function NFTSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={12}>
-          <h2 className={classes.title}>3 Kingdoms Hero NFT</h2>
+          <h2 className={classes.title}>Hero NFT</h2>
           <h5 className={classes.description}>
-            There are <b>921</b> unique hero NFTs. A hero has 3 attributes: Strength, Intelligence and Attraction. Attributes
+            There are <b>921</b> unique hero NFTs. A hero has 3 attributes: Strength, Intelligence and Charm. Attributes
             range from 0(weakest) to 100(strongest). Depending on hero popularity and attribute values, a hero NFT belongs to 1
             of 4 types: Platinum, Gold, Silver or Bronze.
           </h5>
@@ -51,9 +51,9 @@ export default function NFTSection() {
         </GridItem>
         <GridItem xs={6} sm={4} md={4}>
           <img alt="..." height={30} src="img/nft/charm.png" />
-          <h4 className={classes.subTitle}>Attraction</h4>
+          <h4 className={classes.subTitle}>Charm</h4>
           <span className={classes.gridItemTxt}>
-            Every day your hero recruites soldiers. Higher attraction value
+            Every day your hero recruites soldiers. Higher charm value
             helps you to grow your soldiers faster. There is a higher chance of winning a battle if you have more soldiers.
             (<a href="#">more</a>)
           </span>
