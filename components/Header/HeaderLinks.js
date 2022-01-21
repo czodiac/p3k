@@ -36,19 +36,19 @@ export default function HeaderLinks(props) {
             color: "transparent",
           }}
           dropdownList={[
-            <Link href="/RequestBattle">
+            <Link href="/#">
               <a className={classes.dropdownLink}>Request Battle</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/#">
               <a className={classes.dropdownLink}>Empire</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/#">
               <a className={classes.dropdownLink}>Cities</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/#">
               <a className={classes.dropdownLink}>My Heroes</a>
             </Link>,
-            <Link href="/components">
+            <Link href="/#">
               <a className={classes.dropdownLink}>Battle History</a>
             </Link>,
           ]}
@@ -61,7 +61,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="/components"
+          href="/#"
           color="transparent"
           className={classes.navLink}
         >
@@ -70,7 +70,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="/components"
+          href="/#"
           color="transparent"
           className={classes.navLink}
         >
