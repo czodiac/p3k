@@ -62,7 +62,7 @@ export default function LandingPage(props) {
               <List disablePadding>
                 <ListItem>
                   <Check className={classes.chkIcon} />
-                  Earn Polygon daily
+                  장동민씨 결혼축하합니다!
                 </ListItem>
               </List>
               <List>
