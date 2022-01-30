@@ -58,11 +58,11 @@ export default function LandingPage(props) {
                   src="/polygon-matic-logo.png"
                 />
               </span>
-              <h4>Use a hero NFT and own a city to:</h4>
+              <h4>Own a city with your hero NFT and</h4>
               <List disablePadding>
                 <ListItem>
                   <Check className={classes.chkIcon} />
-                  장동민씨 결혼축하합니다!
+                  Earn Polygon (Daily and when you defend from an attach)
                 </ListItem>
               </List>
               <List>

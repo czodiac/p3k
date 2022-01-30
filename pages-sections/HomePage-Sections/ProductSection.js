@@ -44,7 +44,7 @@ export default function ProductSection() {
         <GridItem xs={6} sm={3} md={3}>
           <InfoArea
             title="Pre-Minted"
-            description="Minting benefits publishers not buyers. You no longer need to: wait for minting or whitelist start date, get a random NFT or pay expensive gas fee."
+            description="You no longer need to: wait for minting or whitelist start date, get a random NFT or pay expensive gas fee."
             icon={VerifiedUser}
             iconColor="info"
             vertical

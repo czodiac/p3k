@@ -20,7 +20,8 @@ import ReactDOM from "react-dom";
 import App from "next/app";
 import Head from "next/head";
 import Router from "next/router";
-
+import { Web3ReactProvider } from "@web3-react/core";
+import Web3 from "web3";
 import PageChange from "components/PageChange/PageChange.js";
 
 import "styles/scss/nextjs-material-kit.scss?v=1.2.0";
@@ -74,18 +75,22 @@ export default class MyApp extends App {
   }
   render() {
     const { Component, pageProps } = this.props;
-
+    function getLibrary(provider) {
+      return new Web3(provider);
+    }
     return (
-      <React.Fragment>
-        <Head>
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-          />
-          <title>3 Kingdoms NFT Game | Polygon network</title>
-        </Head>
-        <Component {...pageProps} />
-      </React.Fragment>
+      <Web3ReactProvider getLibrary={getLibrary}>
+        <React.Fragment>
+          <Head>
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1, shrink-to-fit=no"
+            />
+            <title>3 Kingdoms NFT Game | Polygon network</title>
+          </Head>
+          <Component {...pageProps} />
+        </React.Fragment>
+      </Web3ReactProvider>
     );
   }
 }
