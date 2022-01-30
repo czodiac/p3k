@@ -2466,13 +2466,13 @@ h6,
 }
 
 a {
-    color: #9c27b0;
+    color: #855616;
 }
 
 a:hover,
 a:focus {
-    color: #89229b;
-    text-decoration: none;
+    color: #bf9762;
+    text-decoration: underline;
 }
 
 a.text-info:hover,

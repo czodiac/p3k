@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 
@@ -62,7 +63,8 @@ export default function LandingPage(props) {
               <List disablePadding>
                 <ListItem>
                   <Check className={classes.chkIcon} />
-                  Earn Polygon (Daily and when you defend from an attach)
+                  Earn Polygon (daily and when you win a war)
+                  <Link href="/whitepaper">*</Link>
                 </ListItem>
               </List>
               <List>

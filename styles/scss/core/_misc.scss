@@ -126,7 +126,7 @@ a {
   &:hover,
   &:focus {
     color: darken($link-color, 5%);
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 

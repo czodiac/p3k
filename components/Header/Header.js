@@ -65,10 +65,10 @@ export default function Header(props) {
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
         <div className={classes.flex}>
-          <Link href="/home" as="/home">
+          <Link href="/home">
             <img alt="3 Kingdoms" src="/3castles.png" />
           </Link>
-          <Link href="/home" as="/home">
+          <Link href="/home">
             <span class="logo">{brand}</span>
           </Link>
         </div>

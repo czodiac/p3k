@@ -43,18 +43,14 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <Button href="/heroes" color="transparent" className={classes.navLink}>
-          Heroes
-        </Button>
+        <Link href="/heroes">
+          <a className={classes.menuLink}>Heroes</a>
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="/whitepaper"
-          color="transparent"
-          className={classes.navLink}
-        >
-          Whitepaper
-        </Button>
+        <Link className={classes.menuLink} href="/whitepaper">
+          <a className={classes.menuLink}>Whitepaper</a>
+        </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip

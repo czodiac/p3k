@@ -116,6 +116,13 @@ const headerLinksStyle = (theme) => ({
       padding: "10px 20px",
     },
   },
+  menuLink: {
+    color: "#7E4F0F",
+    margin: "13px 20px",
+    display: "block",
+    fontSize: "16px",
+    fontWeight: "600",
+  },
   ...tooltip,
   marginRight5: {
     marginRight: "5px",
