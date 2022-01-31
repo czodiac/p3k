@@ -31,7 +31,7 @@ export default function Footer(props) {
       <div className={classes.container}>
         <div className={classes.left}></div>
         <div className={classes.footerTxt}>
-          &copy; ITL Studio
+          &copy; ITL Lab
         </div>
       </div>
     </footer>

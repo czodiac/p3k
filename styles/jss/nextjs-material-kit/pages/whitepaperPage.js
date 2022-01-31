@@ -13,7 +13,7 @@ const whitepaperPageStyle = {
   title: {
     ...title,
     color: "#824e0a",
-    margin: "0 0 10px",
+    margin: "10px 0 10px",
     display: "inline-block",
     fontSize: "35px",
     textAlign: "center",
@@ -23,6 +23,10 @@ const whitepaperPageStyle = {
     margin: "10px",
     fontSize: "14px",
     textAlign: "center",
+  },
+  center: {
+    textAlign: "center",
+    margin: "auto auto",
   },
   main: {
     background: "#FFFFFF",
@@ -37,21 +41,24 @@ const whitepaperPageStyle = {
       "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)",
   },
   center: {
-    margin: "auto",
+    textAlign: "center",
+  },
+  withOriginal: {
+    cursor: "pointer",
   },
   td: {
     padding: "230px",
   },
   myH1: {
     ...title,
-    margin: "100px 0 0 0",
+    margin: "100px 0 10px 0",
     fontSize: "25px",
   },
   myH2: {
     ...title,
     color: "#7e7e7e",
-    fontSize: "20px",
-    margin: "25px 0 5px 5px"
+    fontSize: "25px",
+    margin: "25px 0 10px 5px",
   },
 };
 
