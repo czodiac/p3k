@@ -78,7 +78,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://discord.gg/NWJKY3cb"
+            href="https://discord.gg/8qYh4w5mqU"
             target="_blank"
             className={classes.navLink}
           >

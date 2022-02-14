@@ -43,7 +43,7 @@ export default function ProfilePage(props) {
         }}
         {...rest}
       />
-      <Parallax small filter image="/img/twiiter_bg.png" />
+      <Parallax small filter image="/img/profile-bg.jpg" />
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>
