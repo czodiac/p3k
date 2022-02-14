@@ -27,10 +27,14 @@ export default function NFTSection() {
           <h2 className={classes.title}>Hero NFT</h2>
           <h5 className={classes.description}>
             There are <b>921</b> unique hero NFTs. A hero has 3 attributes:
-            Strength, Intelligence and Charm. Attributes range from 0(weakest)
-            to 100(strongest). Depending on hero popularity and attribute
-            values, a hero NFT belongs to 1 of 4 types: Platinum, Gold, Silver
-            or Bronze.
+            Strength, Intelligence and Charm. An attribute value ranges from
+            0(weakest) to 100(strongest). Depending on popularity and
+            attribute values, a hero is categorized as one of 4 types:
+            Platinum, Gold, Silver or Bronze.
+          </h5>
+          <h5 className={classes.description}>
+            Initial hero price (in ETH) on Opensea.io is calculated as such: 
+            0.05 + (total attribute value/10000) It is multiplied by 2 if it is a platinum.
           </h5>
         </GridItem>
       </GridContainer>
@@ -41,7 +45,7 @@ export default function NFTSection() {
           <span className={classes.gridItemTxt}>
             This is one of the factors that determines how many soldiers die in
             a battle. This is important for all types of battle: 1 on 1 and
-            normal. However, it is more useful for 1 on 1 battles. (
+            normal. However, it is more useful for 1 on 1 battle. (
             <Link href="/whitepaper">more</Link>)
           </span>
         </GridItem>
@@ -49,8 +53,8 @@ export default function NFTSection() {
           <img alt="..." height={30} src="img/nft/brain.png" />
           <h4 className={classes.subTitle}>Intelligence</h4>
           <span className={classes.gridItemTxt}>
-            Its usage is the same as strength. The only difference is this is
-            more useful for normal battles than 1 on 1. (
+            Its usage is pretty much the same as strength. The only difference is that intelligence attribute is
+            more useful for normal battle than 1 on 1. (
             <Link href="/whitepaper">more</Link>)
           </span>
         </GridItem>
@@ -59,7 +63,7 @@ export default function NFTSection() {
           <h4 className={classes.subTitle}>Charm</h4>
           <span className={classes.gridItemTxt}>
             Every day your hero recruites soldiers. Higher charm value helps you
-            to grow your soldiers faster. There is a higher chance of winning a
+            to recruite your soldiers faster. There is a higher chance of winning a
             battle if you have more soldiers. (
             <Link href="/whitepaper">more</Link>)
           </span>

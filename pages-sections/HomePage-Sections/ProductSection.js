@@ -39,7 +39,7 @@ export default function ProductSection() {
         <GridItem xs={6} sm={3} md={3}>
           <InfoArea
             title="Play and Earn"
-            description="Just by owning a city, you recieve polygon daily. If you successfully defend your city from an attack, you also receive Polygon."
+            description="Just by owning a city, you recieve polygon daily. If you successfully defend your city from an invasion, you also receive Polygon."
             icon={MonetizationOn}
             iconColor="success"
             vertical
@@ -66,7 +66,7 @@ export default function ProductSection() {
         <GridItem xs={6} sm={3} md={3}>
           <InfoArea
             title="Transparent"
-            description="We are transparent. Users pay small Polygon to initiate a battle. The wallet address used to accumulate this fee will be public. Every battle history will also be available on Battles page."
+            description="Users pay small Polygon to initiate a battle. It is distributed between city owner(40% if successfully defended)/distribution wallet(55%) and site owner(5%). The wallet address that accumulates this fee will be public. Every battle history will also be available on the Battles page."
             icon={Search}
             iconColor="success"
             vertical

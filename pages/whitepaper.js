@@ -257,7 +257,7 @@ export default function WhitepaperPage(props) {
             Polygon to city owners.
           </p>
           <p>&#9632;&nbsp;Fee distribution:</p>
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 40%: Winner</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 40%: City owner if s/he defends an invasion</p>
           <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 55%: Daily distribution
             wallet

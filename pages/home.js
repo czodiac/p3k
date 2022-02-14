@@ -77,7 +77,7 @@ export default function LandingPage(props) {
               <Button
                 color="primary"
                 size="lg"
-                href="https://opensea.io/"
+                href="https://opensea.io/collection/3-kingdoms"
                 target="_blank"
                 rel="noopener noreferrer"
               >
