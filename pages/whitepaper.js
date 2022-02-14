@@ -257,7 +257,10 @@ export default function WhitepaperPage(props) {
             Polygon to city owners.
           </p>
           <p>&#9632;&nbsp;Fee distribution:</p>
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 40%: City owner if s/he defends an invasion</p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 40%: City owner if s/he
+            defends an invasion
+          </p>
           <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 55%: Daily distribution
             wallet
@@ -309,11 +312,12 @@ export default function WhitepaperPage(props) {
           <p>
             &#9632;&nbsp; A random value(1~0.8) is multiplied to the hero's
             strength. A random value(0.4~0.2) is multiplied to the hero's
-            intelligence. Both values become the hero's total attirbute.
+            intelligence. Both values become the hero's total attirbute. 5
+            points are added to the total if it is a platinum hero.
             <br />
             <br />
             Ex) Zhang Fei (Strength 97, Intelligence 60) and Cao Pi (Strength
-            90, Intelligence 80) fight a duel over a city.
+            90, Intelligence 80) fight a duel.
             <br />
             <br />
           </p>
@@ -327,7 +331,7 @@ export default function WhitepaperPage(props) {
           </p>
           <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Zhang Fei's total
-            attribute is (97X0.9)+(60X0.4)=111.3
+            attribute is (97X0.9)+(60X0.4)+5(because he is a platinum)=116.3
             <br />
             <br />
           </p>
@@ -344,14 +348,15 @@ export default function WhitepaperPage(props) {
             is (90X1)+(80X0.3)=115
             <br />
             <br />
-            Therefore, Cao Pi's party wins the war because his total attribute score 115 is
-            greater than Zhang Fei's 111.3.
+            Therefore, Zhang Fei's party wins the war because his total
+            attribute value 116.3 is greater than Cao Pi's 115.
           </p>
           <p>
-            &#9632;&nbsp; Winner takes 10~20% of the loser's soldiers. If the losing party
-            has more soldiers, the winner gets 10~20% of his soldier count. Let's say Zhang Fei's party has 10,000 soldiers and Cao Pi's party 
-            has 3,000 soldiers. If Cao Pi wins, he gets 10~20% of 3,000
-            soldiers. If Zhang Fei wins, he gets 10~20% of 10,000 soldiers
+            &#9632;&nbsp; Winner takes 10~20% of the loser's soldiers. If the
+            party that lost a war has more soldiers, the winner's party gets 10~20% of the
+            soldier count. Let's say Zhang Fei's party has 10,000 soldiers and
+            Cao Pi's party has 3,000 soldiers. If Cao Pi wins, he gets 10~20% of
+            3,000 soldiers. If Zhang Fei wins, he gets 10~20% of 10,000 soldiers
             because he risked more soldiers.
             <br />
             <br />
@@ -359,7 +364,9 @@ export default function WhitepaperPage(props) {
             attribute: # of soliders X (charm /100) X (0.1~0.2)
           </p>
           <h2 className={classes.myH2}>Normal War</h2>
-          <p>&#9632;&nbsp; There can be multiple batttles. After each battle,</p>
+          <p>
+            &#9632;&nbsp; There can be multiple batttles. After each battle,
+          </p>
           <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- There is a 0.5~1% chance
             that a hero can die during a battle. If the hero dies, its soldiers
@@ -389,12 +396,12 @@ export default function WhitepaperPage(props) {
             intelligence for the party.
             <br />
             <br />
-            Total strength value for othe party is then calculated as such: A's 90 + 1.2(B's 60X0.02) + 1.4(C's 70X0.04) =
-            92.6
+            Total strength value for othe party is then calculated as such: A's
+            90 + 1.2(B's 60X0.02) + 1.4(C's 70X0.04) = 92.6
           </p>
           <p>
-            Similarly, total intelligence value is calcualted as such: B's 100 + 1.6(A's 80X0.02) + 1(C's
-            50X0.02) = 102.6
+            Similarly, total intelligence value is calcualted as such: B's 100 +
+            1.6(A's 80X0.02) + 1(C's 50X0.02) = 102.6
           </p>
           <p>
             &#9632;&nbsp; 0.9~0.7 is multiplied to the total strength value.
@@ -406,11 +413,16 @@ export default function WhitepaperPage(props) {
             &#9632;&nbsp; After each battle, the winning party's soldiers
             diminish by 5~10%. The losing party's solders diminish by 15~20%.
             However, if the losing party has more soldiers, 15~20% of the
-            winning party's soldiers diminish from the losing party. For example, let's say the 
-            losing party has 10,000 soldiers and the winning party has 8,000
-            soldiers. The losing party only loses 15~20% of 8000. This is to give a slight advantage to the party with more soldiers.
+            winning party's soldiers diminish from the losing party. For
+            example, let's say the losing party has 10,000 soldiers and the
+            winning party has 8,000 soldiers. The losing party only loses 15~20%
+            of 8000. This is to give a slight advantage to the party with more
+            soldiers.
           </p>
-          <p>&#9632;&nbsp; If none of the below conditions is met after a battle, next battle begins. A war ends if,</p>
+          <p>
+            &#9632;&nbsp; If none of the below conditions is met after a battle,
+            next battle begins. A war ends if,
+          </p>
           <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- A party's soldier count
             falls below the minimum soldier count.
